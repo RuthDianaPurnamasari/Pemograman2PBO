@@ -1,0 +1,10 @@
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\bin\Debug\P5_1_714220042.exe.config
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\bin\Debug\P5_1_714220042.exe
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\bin\Debug\P5_1_714220042.pdb
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.csproj.AssemblyReference.cache
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.Form1.resources
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.Properties.Resources.resources
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.csproj.GenerateResource.cache
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.csproj.CoreCompileInputs.cache
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.exe
+C:\Pemograman2_PBO\pertemuan 05\P5_1_714220042\P5_1_714220042\obj\Debug\P5_1_714220042.pdb

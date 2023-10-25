@@ -12,7 +12,7 @@ namespace P4_2_714220042
         public string jenis;
         public string spesialis;
 
-        //constructor
+        
         public Profesi(string jenis, string spesialis)
         {
             this.jenis = jenis;
