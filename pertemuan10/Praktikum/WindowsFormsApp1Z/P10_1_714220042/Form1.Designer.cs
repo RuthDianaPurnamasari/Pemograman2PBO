@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.gBtablemahasiswa = new System.Windows.Forms.GroupBox();
+            this.DataMahasiswa = new System.Windows.Forms.DataGridView();
             this.gBdatamahasiswa = new System.Windows.Forms.GroupBox();
             this.angkatan = new System.Windows.Forms.ComboBox();
             this.nohp = new System.Windows.Forms.TextBox();
             this.email = new System.Windows.Forms.TextBox();
             this.alamat = new System.Windows.Forms.TextBox();
             this.nama = new System.Windows.Forms.TextBox();
-            this.nmp = new System.Windows.Forms.TextBox();
+            this.npm = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,11 +48,10 @@
             this.btnUbah = new System.Windows.Forms.Button();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.DataMahasiswa = new System.Windows.Forms.DataGridView();
             this.gBtablemahasiswa.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataMahasiswa)).BeginInit();
             this.gBdatamahasiswa.SuspendLayout();
             this.gBTombolAction.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataMahasiswa)).BeginInit();
             this.SuspendLayout();
             // 
             // gBtablemahasiswa
@@ -64,6 +64,18 @@
             this.gBtablemahasiswa.TabStop = false;
             this.gBtablemahasiswa.Text = "Table Data Mahasiswa";
             // 
+            // DataMahasiswa
+            // 
+            this.DataMahasiswa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataMahasiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataMahasiswa.Location = new System.Drawing.Point(0, 25);
+            this.DataMahasiswa.Name = "DataMahasiswa";
+            this.DataMahasiswa.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.DataMahasiswa.RowHeadersWidth = 62;
+            this.DataMahasiswa.RowTemplate.Height = 28;
+            this.DataMahasiswa.Size = new System.Drawing.Size(1119, 177);
+            this.DataMahasiswa.TabIndex = 0;
+            // 
             // gBdatamahasiswa
             // 
             this.gBdatamahasiswa.Controls.Add(this.angkatan);
@@ -71,7 +83,7 @@
             this.gBdatamahasiswa.Controls.Add(this.email);
             this.gBdatamahasiswa.Controls.Add(this.alamat);
             this.gBdatamahasiswa.Controls.Add(this.nama);
-            this.gBdatamahasiswa.Controls.Add(this.nmp);
+            this.gBdatamahasiswa.Controls.Add(this.npm);
             this.gBdatamahasiswa.Controls.Add(this.label6);
             this.gBdatamahasiswa.Controls.Add(this.label5);
             this.gBdatamahasiswa.Controls.Add(this.label4);
@@ -122,12 +134,12 @@
             this.nama.Size = new System.Drawing.Size(348, 26);
             this.nama.TabIndex = 7;
             // 
-            // nmp
+            // npm
             // 
-            this.nmp.Location = new System.Drawing.Point(143, 45);
-            this.nmp.Name = "nmp";
-            this.nmp.Size = new System.Drawing.Size(348, 26);
-            this.nmp.TabIndex = 6;
+            this.npm.Location = new System.Drawing.Point(143, 45);
+            this.npm.Name = "npm";
+            this.npm.Size = new System.Drawing.Size(348, 26);
+            this.npm.TabIndex = 6;
             // 
             // label6
             // 
@@ -232,18 +244,6 @@
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
             // 
-            // DataMahasiswa
-            // 
-            this.DataMahasiswa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DataMahasiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataMahasiswa.Location = new System.Drawing.Point(0, 25);
-            this.DataMahasiswa.Name = "DataMahasiswa";
-            this.DataMahasiswa.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.DataMahasiswa.RowHeadersWidth = 62;
-            this.DataMahasiswa.RowTemplate.Height = 28;
-            this.DataMahasiswa.Size = new System.Drawing.Size(1119, 177);
-            this.DataMahasiswa.TabIndex = 0;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -256,10 +256,10 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gBtablemahasiswa.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DataMahasiswa)).EndInit();
             this.gBdatamahasiswa.ResumeLayout(false);
             this.gBdatamahasiswa.PerformLayout();
             this.gBTombolAction.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DataMahasiswa)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -268,7 +268,7 @@
 
         private System.Windows.Forms.GroupBox gBtablemahasiswa;
         private System.Windows.Forms.GroupBox gBdatamahasiswa;
-        private System.Windows.Forms.TextBox nmp;
+        private System.Windows.Forms.TextBox npm;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
