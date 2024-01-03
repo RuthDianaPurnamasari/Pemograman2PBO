@@ -220,3 +220,4 @@ C:\Pemograman2_PBO\pertemuan13\Praktikum\P10_1_714220042\obj\Debug\P10_1_7142200
 C:\Pemograman2_PBO\pertemuan13\Praktikum\P10_1_714220042\obj\Debug\P10_1_714220042.exe
 C:\Pemograman2_PBO\pertemuan13\Praktikum\P10_1_714220042\obj\Debug\P10_1_714220042.pdb
 C:\Pemograman2_PBO\pertemuan13\Praktikum\P10_1_714220042\obj\Debug\P10_1_714220042.View.FormLogin.resources
+C:\Pemograman2_PBO\pertemuan13\Praktikum\P10_1_714220042\obj\Debug\P10_1_714220042.View.FormRegister.resources

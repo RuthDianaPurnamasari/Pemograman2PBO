@@ -100,6 +100,7 @@
   <ItemGroup>
     <Compile Include="Controller\Barang.cs" />
     <Compile Include="Controller\CekLogin.cs" />
+    <Compile Include="Controller\cekRegister.cs" />
     <Compile Include="Controller\Mahasiswa.cs" />
     <Compile Include="Controller\M_transaksi_barang.cs" />
     <Compile Include="Controller\Nilai.cs" />
@@ -136,6 +137,12 @@
     </Compile>
     <Compile Include="View\FormNilai.Designer.cs">
       <DependentUpon>FormNilai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormRegister.Designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormTransaksiBarang.cs">
       <SubType>Form</SubType>
@@ -176,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormNilai.resx">
       <DependentUpon>FormNilai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormTransaksiBarang.resx">
       <DependentUpon>FormTransaksiBarang.cs</DependentUpon>
